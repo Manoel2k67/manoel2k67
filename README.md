@@ -12,7 +12,7 @@
  
  🔭 Atualmente estou trabalhando em **uma revenda Ambev** como desenvolvedor fullstack
  
- 🌱 Atualmente estou aprendendo **React, Supabase, Node.js e Express**
+ 🌱 Estou aprendendo **React, Supabase, Node.js e Express**
 
  💬 Pergunte-me sobre **qualquer coisa [aqui](https://github.com/Manoel2k67/Manoel2k67/issues)**
 
@@ -34,7 +34,7 @@
 
 <hr/>
 
-<h2 align="center">⚒️ Linguagens-Frameworks-Ferramentas ⚒️</h2>
+<h2 align="center">⚒️ Linguagens-Frameworks-Ferramentas⚒️</h2>
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git" />
