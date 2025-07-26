@@ -8,12 +8,18 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    
+    # ADICIONE ESTA SEÇÃO DE PERMISSÕES AQUI
+    permissions:
+      contents: write # Permite que o workflow escreva no repositório (faça commits)
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Generate GitHub snake.svg
-        uses: Platane/snk@master
+        # É uma boa prática usar uma versão específica em vez de 'master'
+        uses: Platane/snk@v3 
         with:
           github_user_name: Manoel2k67
           outputs: |
@@ -25,4 +31,5 @@ jobs:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "Generate contribution snake"
-          add: "output/github-contribution-grid-snake.svg"
+          # Certifique-se que o caminho está correto e entre aspas
+          add: "./output/github-contribution-grid-snake.svg"
